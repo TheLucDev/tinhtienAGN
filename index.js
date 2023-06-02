@@ -32,7 +32,7 @@ function Login() {
   let a = document.getElementById("user").value;
   let b = document.getElementById("password").value;
   if ((a === "admin" && b === "123456") || b === "123") {
-    $("form").attr("action", "/pages/sotay.html");
+    $("form").attr("action", "/tinhtienAGN/pages/sotay.html");
   } else alert("sai");
 }
 function Thousand() {
