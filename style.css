@@ -215,6 +215,12 @@ body {
 .input:checked + .slider .iron-man {
   animation: show_5911 1.3s ease-in-out forwards;
 }
+.carousel-control-prev{
+  /* padding: 20px !important; */
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  background-color: #000 !important;
+}
 
 @keyframes show_5911 {
   0% {
